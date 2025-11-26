@@ -1,0 +1,25 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	TempItem: {
+		DisplayName: Temp Item
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+	}
+
+	Sweetshooter: {
+		Tooltip: ""
+		DisplayName: Sweetshooter
+	}
+
+	SugarySawblade: {
+		DisplayName: Sugary Sawblade
+		Tooltip: ""
+	}
+}
+
+Projectiles.SugarySawblade.DisplayName: Sugary Sawblade
