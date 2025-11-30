@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CompatConfection")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a28818cad0681aded6596e33684fc6538666fb52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa3594658fd7ac004ad1889221c70df7c6b46351")]
 [assembly: System.Reflection.AssemblyProductAttribute("CompatConfection")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CompatConfection")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
