@@ -20,6 +20,14 @@ Items: {
 		DisplayName: Sugary Sawblade
 		Tooltip: ""
 	}
+
+	SugarScepter: {
+		Tooltip: ""
+		DisplayName: Sugar Scepter
+	}
 }
 
-Projectiles.SugarySawblade.DisplayName: Sugary Sawblade
+Projectiles: {
+	SugarySawblade.DisplayName: Sugary Sawblade
+	Gumdrop.DisplayName: Gumdrop
+}
