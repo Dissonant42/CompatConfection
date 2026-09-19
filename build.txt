@@ -1,3 +1,4 @@
 displayName = Confection Compat
 author = Disso
 version = 0.1
+modReferences = TheConfectionRebirth

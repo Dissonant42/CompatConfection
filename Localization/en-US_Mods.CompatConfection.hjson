@@ -22,12 +22,34 @@ Items: {
 	}
 
 	SugarScepter: {
+		Tooltip:
+			'''
+			Summons a pair of gumdrops that slam into eachother at the cursor's position
+			'I never said they would drop *downwards*.'
+			'''
+		DisplayName: Gumdrop Scepter
+	}
+
+	SMG: {
+		Tooltip:
+			'''
+			Rapidly fires bullets unpredictably
+			75% chance to not consume ammo
+			'It stands for "Sweetish Marine Gummy"'
+			'''
+		DisplayName: S.M.G.
+	}
+
+	JawCrusher: {
+		DisplayName: Jaw Crusher
 		Tooltip: ""
-		DisplayName: Sugar Scepter
 	}
 }
 
 Projectiles: {
 	SugarySawblade.DisplayName: Sugary Sawblade
 	Gumdrop.DisplayName: Gumdrop
+	SMGHoldout.DisplayName: S M G Holdout
+	Gobstopper.DisplayName: Gobstopper
+	JawCrusherHoldout.DisplayName: Jaw Crusher Holdout
 }
