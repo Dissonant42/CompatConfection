@@ -11,6 +11,11 @@ namespace CompatConfection.Content.Items.Weapons.Thorium
     public class SugarScepter : ModItem
     {
         public override string Texture => "CompatConfection/Content/Items/TempItem";
+        public override void SetStaticDefaults()
+        {
+            Item.ResearchUnlockCount = 1;
+
+        }
         //public int GumdropPair = 0;
         public override void SetDefaults()
         {

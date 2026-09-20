@@ -1,4 +1,4 @@
-using Microsoft.Xna.Framework;
+/*using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
@@ -10,6 +10,7 @@ namespace CompatConfection.Content.Items.Weapons.Thorium
     {
         private int ShotAmount = 0;
         public override string Texture => "CompatConfection/Content/Items/TempItem";
+
         public override void SetDefaults()
         {
             Item.rare = ItemRarityID.Pink;
@@ -62,4 +63,4 @@ namespace CompatConfection.Content.Items.Weapons.Thorium
             return false;
         }
     }
-}
+}*/

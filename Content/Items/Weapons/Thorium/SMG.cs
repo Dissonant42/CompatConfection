@@ -11,6 +11,11 @@ namespace CompatConfection.Content.Items.Weapons.Thorium
     {
         private int ShotAmount = 0;
 
+        public override void SetStaticDefaults()
+        {
+            Item.ResearchUnlockCount = 1;
+
+        }
         public const int HoldoutDistance = 20;
         public override string Texture => "CompatConfection/Content/Items/TempItem";
         public override void SetDefaults()

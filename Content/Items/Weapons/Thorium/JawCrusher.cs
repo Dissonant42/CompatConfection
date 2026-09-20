@@ -30,7 +30,7 @@ namespace CompatConfection.Content.Items.Weapons.Thorium
 
             Item.rare = ItemRarityID.LightRed;
             Item.value = 40000;
-            //Item.noUseGraphic = true;
+            Item.noUseGraphic = true;
             Item.channel = true;
         }
 

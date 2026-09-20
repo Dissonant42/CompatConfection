@@ -89,7 +89,7 @@ namespace CompatConfection.Content.Projectiles
             float rotationOffset = Projectile.spriteDirection == -1 ? MathHelper.Pi : 0;
             Projectile.rotation = Projectile.velocity.ToRotation() + rotationOffset;
             player.itemRotation = (Projectile.velocity * Projectile.direction).ToRotation();
-            Projectile.timeLeft = 3600;
+            Projectile.timeLeft = 2;
 
         }
 
