@@ -19,17 +19,11 @@ namespace CompatConfection.Content.Items.Materials.Thorium
         public override void SetDefaults()
         {
 			Item.maxStack = Item.CommonMaxStack;
-            Item.consumable = true;
             Item.value = 2250;
             Item.rare = ItemRarityID.LightRed;
         }
         public override void AddRecipes()
 		{
-			Recipe recipe = CreateRecipe(3);
-			recipe.AddIngredient(ModContent.ItemType<Sprinkles>(), 3);
-			recipe.AddIngredient(ModContent.ItemType<SoulofDelight>(), 1);
-			recipe.AddTile(TileID.Anvils);
-			recipe.Register();
 		}
     }
 
@@ -44,17 +38,11 @@ namespace CompatConfection.Content.Items.Materials.Thorium
         public override void SetDefaults()
         {
 			Item.maxStack = Item.CommonMaxStack;
-            Item.consumable = true;
-            Item.value = 2250;
+            Item.value = 3750;
             Item.rare = ItemRarityID.LightRed;
         }
         public override void AddRecipes()
 		{
-			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ModContent.ItemType<Saccharite>(), 1);
-			recipe.AddIngredient(ModContent.ItemType<Creamstone>(), 8);
-			recipe.AddTile(TileID.Anvils);
-			recipe.Register();
 		}
     }
 }

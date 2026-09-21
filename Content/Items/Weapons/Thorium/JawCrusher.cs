@@ -1,3 +1,4 @@
+using CompatConfection.Content.Items.Materials.Thorium;
 using CompatConfection.Content.Projectiles;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
@@ -44,5 +45,12 @@ namespace CompatConfection.Content.Items.Weapons.Thorium
 
 			return false;
         }
+		public override void AddRecipes()
+		{
+			Recipe recipe = CreateRecipe();
+			recipe.AddIngredient(ModContent.ItemType<PureSugar>(), 12);
+			recipe.AddTile(TileID.MythrilAnvil);
+			recipe.Register();
+		}
     }
 }

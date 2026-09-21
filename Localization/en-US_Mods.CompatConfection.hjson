@@ -44,6 +44,16 @@ Items: {
 		DisplayName: Jaw Crusher
 		Tooltip: ""
 	}
+
+	PureSugar: {
+		DisplayName: Sugar Glass
+		Tooltip: "'It refracts the light into tasty looking colors...'"
+	}
+
+	RockCandy: {
+		DisplayName: Rock Candy
+		Tooltip: "'It glistens in the light...'"
+	}
 }
 
 Projectiles: {
